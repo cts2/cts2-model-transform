@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystemCatalogEntryDirectory
+    xmlns="http://schema.omg.org/spec/CTS2/1.0/CodeSystem"
+    xmlns:core="http://schema.omg.org/spec/CTS2/1.0/Core"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schema.omg.org/spec/CTS2/1.0/CodeSystem http://informatics.mayo.edu/svn/trunk/cts2/spec/psm/rest/schema/CodeSystem.xsd"
+    complete="PARTIAL" numEntries="50" next="http://informatics.mayo.edu/cts2/rest/codesystems?page=1&amp;maxtoreturn=50">
+    <core:heading>
+        <core:resourceRoot>codesystems</core:resourceRoot>
+        <core:resourceURI>http://informatics.mayo.edu/cts2/rest/codesystems</core:resourceURI>
+        <core:accessDate>2012-07-17T15:58:12.125Z</core:accessDate>
+    </core:heading>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/SOY"
+        resourceName="SOY"
+        about="http://purl.bioontology.org/ontology/SOY"
+        formalName="SoyOntology" codeSystemName="SOY">
+
+        <core:resourceSynopsis>
+            <core:value>Growth, trait and development ontology for soybean</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/SOY/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/SOY/version/unknown">SOY_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/SOY" href="http://informatics.mayo.edu/cts2/rest/codesystem/SOY">SOY</core:codeSystem>
+
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/pseudo"
+        resourceName="pseudo"
+        about="http://purl.bioontology.org/ontology/pseudo"
+        formalName="Pseudogene" codeSystemName="pseudo">
+        <core:resourceSynopsis>
+            <core:value/>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/pseudo/versions</versions>
+        <currentVersion>
+
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/pseudo/version/0.1">pseudo_0-1_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/pseudo" href="http://informatics.mayo.edu/cts2/rest/codesystem/pseudo">pseudo</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/CPTAC"
+        resourceName="CPTAC"
+        about="http://purl.bioontology.org/ontology/CPTAC"
+        formalName="Proteomics Pipeline Infrastructure for CPTAC" codeSystemName="CPTAC">
+        <core:resourceSynopsis>
+            <core:value>a basic ontology which describes the proteomics pipeline infrastructure for CPTAC project</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/CPTAC/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/CPTAC/version/40009">CPTAC_40009_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/CPTAC" href="http://informatics.mayo.edu/cts2/rest/codesystem/CPTAC">CPTAC</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/OMIT"
+        resourceName="OMIT"
+        about="http://purl.bioontology.org/ontology/OMIT"
+        formalName="Ontology for MicroRNA Target Prediction" codeSystemName="OMIT">
+        <core:resourceSynopsis>
+            <core:value>The purpose of the OMIT ontology is to facilitate the identification and characterization of important roles microRNAs (miRNAs) played in human cancer. To be more specific, it aims to assist cancer biologists in unraveling important roles of miRNAs in human cancer.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/OMIT/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/OMIT/version/0.2">OMIT_0-2_OWL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/OMIT" href="http://informatics.mayo.edu/cts2/rest/codesystem/OMIT">OMIT</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/TM-CONST"
+        resourceName="TM-CONST"
+        about="http://purl.bioontology.org/ontology/TM-CONST"
+        formalName="Traditional Medicine Constitution Value Set" codeSystemName="TM-CONST">
+        <core:resourceSynopsis>
+            <core:value>The value set for the Constitution property of the International Classification of Traditional Medicine (ICTM).</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/TM-CONST/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/TM-CONST/version/1.0">TM-CONST_1-0_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/TM-CONST" href="http://informatics.mayo.edu/cts2/rest/codesystem/TM-CONST">TM-CONST</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/DwC"
+        resourceName="DwC"
+        about="http://purl.bioontology.org/ontology/DwC"
+        formalName="Darwin Core Terms" codeSystemName="DwC">
+        <core:resourceSynopsis>
+            <core:value>The Darwin Core is body of standards used for biodiversity information resources. This vocabulary provides a flat list of Darwin Core terms intended as a glossary of terms (in other contexts these might be called properties, elements, fields, columns, attributes, or concepts). Darwin Core is intended to facilitate the sharing of information about biological diversity by providing reference definitions, examples, and commentaries. The Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens, and samples, and related information. &#xd;&lt;br/&gt;&#xd;See also the Darwin Core project page: &lt;a href="http://bioportal.bioontology.org/projects/168"&gt;http://bioportal.bioontology.org/projects/168&lt;/a&gt;.&#xd;&lt;br/&gt;&#xd;The Darwin Core terms cause parse error here in BioPortal. We are exploring the cause of this parse error. The Darwin Core terms are described as a flat list of terms. The RDF resource can be seen as a minimal however valid OWL full ontology.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/DwC/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/DwC/version/2011-10-26">DwC_2011-10-26_PROTEGE</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/DwC" href="http://informatics.mayo.edu/cts2/rest/codesystem/DwC">DwC</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/PHARE"
+        resourceName="PHARE"
+        about="http://purl.bioontology.org/ontology/PHARE"
+        formalName="PHARE" codeSystemName="PHARE">
+        <core:resourceSynopsis>
+            <core:value>The PHArmacogenomic RElationships Ontology (or PHARE) proposes concepts and roles to represent relationships of pharmacogenomics interest.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/PHARE/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/PHARE/version/45138">PHARE_45138_OWL-DL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/PHARE" href="http://informatics.mayo.edu/cts2/rest/codesystem/PHARE">PHARE</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/SPO"
+        resourceName="SPO"
+        about="http://purl.bioontology.org/ontology/SPO"
+        formalName="Skin Physiology Ontology" codeSystemName="SPO">
+        <core:resourceSynopsis>
+            <core:value/>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/SPO/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/SPO/version/2.0">SPO_2-0_OWL-DL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/SPO" href="http://informatics.mayo.edu/cts2/rest/codesystem/SPO">SPO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/OBO_REL"
+        resourceName="OBO_REL"
+        about="http://purl.bioontology.org/ontology/OBO_REL"
+        formalName="OBO relationship types" codeSystemName="OBO_REL">
+        <core:resourceSynopsis>
+            <core:value>Defines core relations used in all OBO ontologies.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/OBO_REL/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/OBO_REL/version/45681">OBO_REL_45681_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/OBO_REL" href="http://informatics.mayo.edu/cts2/rest/codesystem/OBO_REL">OBO_REL</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/SDO"
+        resourceName="SDO"
+        about="http://purl.bioontology.org/ontology/SDO"
+        formalName="Sleep Domain Ontology" codeSystemName="SDO">
+        <core:resourceSynopsis>
+            <core:value>An application ontology for the domain of Sleep Medicine</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/SDO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/SDO/version/Last modification: June 9, 2010 Chimezie Ogbuji">SDO_Last modification: June 9, 2010 Chimezie Ogbuji_OWL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/SDO" href="http://informatics.mayo.edu/cts2/rest/codesystem/SDO">SDO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/OoEVV"
+        resourceName="OoEVV"
+        about="http://purl.bioontology.org/ontology/OoEVV"
+        formalName="Ontology of Experimental Variables and Values" codeSystemName="OoEVV">
+        <core:resourceSynopsis>
+            <core:value>The ontology of experimental variables and values provides a lightweight representation of (a) the variables used to measure experimental properties and (b) the measurement scales that form the complex data types supporting that data. Many different variables measure the same thing, here we use a lightweight representation driven by a small number of classes and a large number of variables to focus only on providing a vocabulary of variables that may be extended for consolidation to standardized variables for specific things and functions to map between values from different measurements scales.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/OoEVV/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/OoEVV/version/0.0.3">OoEVV_0-0-3_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/OoEVV" href="http://informatics.mayo.edu/cts2/rest/codesystem/OoEVV">OoEVV</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/CCO"
+        resourceName="CCO"
+        about="http://purl.bioontology.org/ontology/CCO"
+        formalName="Cell Cycle Ontology" codeSystemName="CCO">
+        <core:resourceSynopsis>
+            <core:value>An application ontology integrating knowledge about the eukaryotic cell cycle.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/CCO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/CCO/version/0.95">CCO_0-95_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/CCO" href="http://informatics.mayo.edu/cts2/rest/codesystem/CCO">CCO</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/RCD"
+        resourceName="RCD"
+        about="http://purl.bioontology.org/ontology/RCD"
+        formalName="Read Codes, Clinical Terms Version 3 (CTV3)" codeSystemName="RCD">
+        <core:resourceSynopsis>
+            <core:value>Clinical Terms Version 3 (CTV3) (Read Codes) (Q199): National Health Service National Coding and Classification Centre</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/RCD/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/RCD/version/1999">RCD_1999_RRF</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/RCD" href="http://informatics.mayo.edu/cts2/rest/codesystem/RCD">RCD</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/SWO"
+        resourceName="SWO"
+        about="http://purl.bioontology.org/ontology/SWO"
+        formalName="Software Ontology" codeSystemName="SWO">
+        <core:resourceSynopsis>
+            <core:value>The Software Ontology (SWO) has the scope of describing types of software used in Bioinformatics. The SWO covers areas such as the software type, the manufacturer of the software, the input and output data types and the uses (i.e. objectives) the software can be put to. The SWO intends to use BFO as an upper level ontolgoy and subclasses types from the Ontology of Biomedical Investigations. Contact James Malone for info: malone@ebi.ac.uk</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/SWO/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/SWO/version/46493">SWO_46493_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/SWO" href="http://informatics.mayo.edu/cts2/rest/codesystem/SWO">SWO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/IDO"
+        resourceName="IDO"
+        about="http://purl.bioontology.org/ontology/IDO"
+        formalName="Infectious Disease Ontology" codeSystemName="IDO">
+        <core:resourceSynopsis>
+            <core:value>The IDO ontologies are designed as a set of interoperable ontologies that will together provide coverage of the infectious disease domain. At the core of the set is a general Infectious Disease Ontology (IDO-Core) of entities relevant to both biomedical and clinical aspects of most infectious diseases. Sub-domain specific extensions of IDO-Core complete the set providing ontology coverage of entities relevant to specific pathogens or diseases. &#xd;&#xd;&lt;br&gt;&lt;br&gt;&#xd;To import,&lt;br&gt;&#xd;Latest version: &lt;a href="http://purl.obolibrary.org/obo/ido.owl"&gt;http://purl.obolibrary.org/obo/ido.owl&lt;/a&gt;&lt;br&gt;&#xd;This version (2010-12-02): &lt;a href="http://purl.obolibrary.org/obo/ido/2010-12-02/ido.owl"&gt;http://purl.obolibrary.org/obo/ido/2010-12-02/ido.owl&lt;/a&gt;&lt;br&gt;&#xd;Previous  versions:&lt;br&gt;&#xd;2010-05-26 &lt;a href="http://purl.obolibrary.org/obo/ido/2010-05-26/ido.owl"&gt;http://purl.obolibrary.org/obo/ido/2010-05-26/ido.owl&lt;/a&gt;&lt;br&gt;&#xd;2009-08-14 &lt;a href="http://purl.obolibrary.org/obo/ido/2009-08-14/ido.owl"&gt;http://purl.obolibrary.org/obo/ido/2009-08-14/ido.owl&lt;/a&gt;&lt;br&gt;&#xd;&lt;br&gt;&#xd;&lt;br&gt;&#xd;Latest release notes at &lt;a href="http://infectiousdiseaseontology.org/page/Download"&gt;http://infectiousdiseaseontology.org/page/Download&lt;/a&gt;&lt;br&gt;&#xd;&#xd;&#xd;Please note: The ontology metrics displayed by BioPortal are incorrect as of 8/11/2011. If you need accurate number you will need to compute them on your own, until further notice. In particular these metrics do not distinguish OBI-developed terms versus terms imported from other ontologies, and do not count existing author or definition annotations</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/IDO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/IDO/version/46205">IDO_46205_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/IDO" href="http://informatics.mayo.edu/cts2/rest/codesystem/IDO">IDO</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/MA"
+        resourceName="MA"
+        about="http://purl.bioontology.org/ontology/MA"
+        formalName="Mouse adult gross anatomy" codeSystemName="MA">
+        <core:resourceSynopsis>
+            <core:value>A structured controlled vocabulary of the adult anatomy of the mouse (Mus).</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/MA/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/MA/version/46004">MA_46004_OBO</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/MA" href="http://informatics.mayo.edu/cts2/rest/codesystem/MA">MA</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/CanCO"
+        resourceName="CanCO"
+        about="http://purl.bioontology.org/ontology/CanCO"
+        formalName="Cancer Chemoprevention Ontology" codeSystemName="CanCO">
+        <core:resourceSynopsis>
+            <core:value>The Cancer Chemoprevention Ontology constitutes a vocabulary that is able to describe and semantically interconnect the different paradigms of the cancer chemoprevention domain.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/CanCO/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/CanCO/version/0.1">CanCO_0-1_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/CanCO" href="http://informatics.mayo.edu/cts2/rest/codesystem/CanCO">CanCO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/SO"
+        resourceName="SO"
+        about="http://purl.bioontology.org/ontology/SO"
+        formalName="Sequence types and features" codeSystemName="SO">
+        <core:resourceSynopsis>
+            <core:value>The Sequence Ontology provides a structured controlled vocabulary for sequence annotation, for the exchange of annotation data and for the description of sequence objects in databases. &lt;a href="http://obo.cvs.sourceforge.net/*checkout*/song/ontology/sofa.obo"&gt;SOFA&lt;/a&gt; is a minimal version of SO for use in data exchange.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/SO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/SO/version/47832">SO_47832_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/SO" href="http://informatics.mayo.edu/cts2/rest/codesystem/SO">SO</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/ODGI"
+        resourceName="ODGI"
+        about="http://purl.bioontology.org/ontology/ODGI"
+        formalName="Ontology for disease genetic investigation" codeSystemName="ODGI">
+        <core:resourceSynopsis>
+            <core:value>The ontology for the original papers investigating the relations between genetic factors and disease.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/ODGI/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/ODGI/version/0.7.1">ODGI_0-7-1_OWL-DL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/ODGI" href="http://informatics.mayo.edu/cts2/rest/codesystem/ODGI">ODGI</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/TEO"
+        resourceName="TEO"
+        about="http://purl.bioontology.org/ontology/TEO"
+        formalName="Time Event Ontology" codeSystemName="TEO">
+        <core:resourceSynopsis>
+            <core:value>The Time Event Ontology (TEO) is an ontology for representing events, time, and their relationships.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/TEO/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/TEO/version/47318">TEO_47318_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/TEO" href="http://informatics.mayo.edu/cts2/rest/codesystem/TEO">TEO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/QIBO"
+        resourceName="QIBO"
+        about="http://purl.bioontology.org/ontology/QIBO"
+        formalName="Quantitative Imaging Biomarker Ontology" codeSystemName="QIBO">
+        <core:resourceSynopsis>
+            <core:value>An ontology that describes various concepts in quantitative imaging biomarkers.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/QIBO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/QIBO/version/unknown">QIBO_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/QIBO" href="http://informatics.mayo.edu/cts2/rest/codesystem/QIBO">QIBO</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/NCIt"
+        resourceName="NCIt"
+        about="http://purl.bioontology.org/ontology/NCIt"
+        formalName="NCI Thesaurus" codeSystemName="NCIt">
+        <core:resourceSynopsis>
+            <core:value>A vocabulary for clinical care, translational and basic research, and public information and administrative activities.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/NCIt/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/NCIt/version/12.04e">NCIt_12-04e_OWL-DL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/NCIt" href="http://informatics.mayo.edu/cts2/rest/codesystem/NCIt">NCIt</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/DiagnosticOnt"
+        resourceName="DiagnosticOnt"
+        about="http://purl.bioontology.org/ontology/DiagnosticOnt"
+        formalName="Diagnostic Ontology" codeSystemName="DiagnosticOnt">
+        <core:resourceSynopsis>
+            <core:value>We built a computational diagnostic ontology containing 91 elements, including classes and sub-classes, which are required to conduct SR-MA (Systematic Review - Meta Analysis) for diagnostic studies, that will assist in standardized reporting of diagnostic articles. We also report high percentage of agreement among five observers as a result of the inter-observer agreement that we conducted among them to tag 13 articles using the diagnostic ontology. Moreover, we extend our existing repository CERR-N (Center of Excellence in Research Reporting in Neurosurgery) to include diagnostic studies.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/DiagnosticOnt/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/DiagnosticOnt/version/2.0">DiagnosticOnt_2-0_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/DiagnosticOnt" href="http://informatics.mayo.edu/cts2/rest/codesystem/DiagnosticOnt">DiagnosticOnt</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/profectus.deid.installation.19214"
+        resourceName="profectus.deid.installation.19214"
+        about="http://purl.bioontology.org/ontology/profectus.deid.installation.19214"
+        formalName="profectus.deid.installation" codeSystemName="profectus.deid.installation.19214">
+        <core:resourceSynopsis>
+            <core:value/>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/profectus.deid.installation.19214/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/profectus.deid.installation.19214/version/1.0">profectus-deid-installation-19214_1-0_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/profectus.deid.installation.19214" href="http://informatics.mayo.edu/cts2/rest/codesystem/profectus.deid.installation.19214">profectus.deid.installation.19214</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/ICD10"
+        resourceName="ICD10"
+        about="http://purl.bioontology.org/ontology/ICD10"
+        formalName="ICD10" codeSystemName="ICD10">
+        <core:resourceSynopsis>
+            <core:value>International Statistical Classification of Diseases and Related Health Problems (ICD-10). 10th rev. Geneva</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/ICD10/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/ICD10/version/1998">ICD10_1998_RRF</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/ICD10" href="http://informatics.mayo.edu/cts2/rest/codesystem/ICD10">ICD10</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCC"
+        resourceName="HOM-OCC"
+        about="http://purl.bioontology.org/ontology/HOM-OCC"
+        formalName="HOM-OCCUPATION Ontology" codeSystemName="HOM-OCC">
+        <core:resourceSynopsis>
+            <core:value>Standard US occupations and their relevant codes (SOC</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCC/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCC/version/0.2">HOM-OCC_0-2_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/HOM-OCC" href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCC">HOM-OCC</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/EPIC-SRC"
+        resourceName="EPIC-SRC"
+        about="http://purl.bioontology.org/ontology/EPIC-SRC"
+        formalName="HOM-DATASOURCE_EPIC" codeSystemName="EPIC-SRC">
+        <core:resourceSynopsis>
+            <core:value>EPIC source data ontology</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/EPIC-SRC/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/EPIC-SRC/version/1.4">EPIC-SRC_1-4_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/EPIC-SRC" href="http://informatics.mayo.edu/cts2/rest/codesystem/EPIC-SRC">EPIC-SRC</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/NIC"
+        resourceName="NIC"
+        about="http://purl.bioontology.org/ontology/NIC"
+        formalName="Nursing Interventions Classification (NIC)" codeSystemName="NIC">
+        <core:resourceSynopsis>
+            <core:value>Nursing Interventions Classification (NIC)</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/NIC/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/NIC/version/2005">NIC_2005_RRF</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/NIC" href="http://informatics.mayo.edu/cts2/rest/codesystem/NIC">NIC</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/SYMP"
+        resourceName="SYMP"
+        about="http://purl.bioontology.org/ontology/SYMP"
+        formalName="Symptom Ontology" codeSystemName="SYMP">
+        <core:resourceSynopsis>
+            <core:value>The symptom ontology was designed around the guiding concept of a symptom being: "A perceived change in function, sensation or appearance reported by a patient indicative of a disease". Understanding the close relationship of Signs and Symptoms, where Signs are the objective observation of an illness, the Symptom Ontology will work to broaden it's scope to capture and document in a more robust manor these two sets of terms. Understanding that at times, the same term may be both a Sign and a Symptom</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/SYMP/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/SYMP/version/45263">SYMP_45263_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/SYMP" href="http://informatics.mayo.edu/cts2/rest/codesystem/SYMP">SYMP</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/CARO"
+        resourceName="CARO"
+        about="http://purl.bioontology.org/ontology/CARO"
+        formalName="Common Anatomy Reference Ontology" codeSystemName="CARO">
+        <core:resourceSynopsis>
+            <core:value>The Common Anatomy Reference Ontology (CARO) is being developed to facilitate interoperability between existing anatomy ontologies for different species, and will provide a template for building new anatomy ontologies. CARO will be described in Anatomy Ontologies for Bioinformatics: Principles and Practice Albert Burger, Duncan Davidson and Richard Baldock (Editors)</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/CARO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/CARO/version/46615">CARO_46615_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/CARO" href="http://informatics.mayo.edu/cts2/rest/codesystem/CARO">CARO</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/TMA"
+        resourceName="TMA"
+        about="http://purl.bioontology.org/ontology/TMA"
+        formalName="Tissue Microarray Ontology" codeSystemName="TMA">
+        <core:resourceSynopsis>
+            <core:value>Tissue microarrays (TMA) are enormously useful tools for translational research, but incompatibilities in database systems between various researchers and institutions prevent the efficient sharing of data that could help realize their full potential.  The Resource Description Framework (RDF) provides a flexible method to represent knowledge in triples, which take the form Subject-Predicate-Object.  All data resources are described using Uniform Resource Identifiers (URI), which are global in scope.  We present an OWL (Web Ontology Language) schema that expands upon the TMA data exchange specification to address this issue and assist in data sharing and integration.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/TMA/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/TMA/version/1.0.0">TMA_1-0-0_OWL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/TMA" href="http://informatics.mayo.edu/cts2/rest/codesystem/TMA">TMA</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/ZEA"
+        resourceName="ZEA"
+        about="http://purl.bioontology.org/ontology/ZEA"
+        formalName="Maize gross anatomy" codeSystemName="ZEA">
+        <core:resourceSynopsis>
+            <core:value/>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/ZEA/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/ZEA/version/1.2">ZEA_1-2_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/ZEA" href="http://informatics.mayo.edu/cts2/rest/codesystem/ZEA">ZEA</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/MPATH"
+        resourceName="MPATH"
+        about="http://purl.bioontology.org/ontology/MPATH"
+        formalName="Mouse pathology" codeSystemName="MPATH">
+        <core:resourceSynopsis>
+            <core:value>A structured controlled vocabulary of mutant and transgenic mouse pathology phenotypes</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/MPATH/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/MPATH/version/46448">MPATH_46448_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/MPATH" href="http://informatics.mayo.edu/cts2/rest/codesystem/MPATH">MPATH</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/CMO"
+        resourceName="CMO"
+        about="http://purl.bioontology.org/ontology/CMO"
+        formalName="Clinical Measurement Ontology" codeSystemName="CMO">
+        <core:resourceSynopsis>
+            <core:value>The Clinical Measurement Ontology is designed to be used to standardize morphological and physiological measurement records generated from clinical and model organism research and health programs</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/CMO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/CMO/version/47837">CMO_47837_OBO</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/CMO" href="http://informatics.mayo.edu/cts2/rest/codesystem/CMO">CMO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/OMRSE"
+        resourceName="OMRSE"
+        about="http://purl.bioontology.org/ontology/OMRSE"
+        formalName="Ontology of Medically Related Social Entities" codeSystemName="OMRSE">
+        <core:resourceSynopsis>
+            <core:value>This ontology covers the domain of social entities that are related to health care, such as demographic information (social entities for recording gender (but not sex) and marital status, for example) and the roles of various individuals and organizations (patient, hospital,etc.)</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/OMRSE/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/OMRSE/version/47773">OMRSE_47773_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/OMRSE" href="http://informatics.mayo.edu/cts2/rest/codesystem/OMRSE">OMRSE</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/amino-acid"
+        resourceName="amino-acid"
+        about="http://purl.bioontology.org/ontology/amino-acid"
+        formalName="Amino Acid" codeSystemName="amino-acid">
+        <core:resourceSynopsis>
+            <core:value>An ontology of amino acids and their properties. Inferred version.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/amino-acid/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/amino-acid/version/1.2 (inferred)">amino-acid_1-2 (inferred)_OWL-FULL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/amino-acid" href="http://informatics.mayo.edu/cts2/rest/codesystem/amino-acid">amino-acid</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/GRO"
+        resourceName="GRO"
+        about="http://purl.bioontology.org/ontology/GRO"
+        formalName="Gene Regulation Ontology" codeSystemName="GRO">
+        <core:resourceSynopsis>
+            <core:value>The Gene Regulation Ontology (GRO) is a conceptual model for the domain of gene regulation. It covers processes  that are linked to the regulation of gene expression as well as physical entities that are involved in these processes (such as genes and transcription factors) in terms of ontology classes and semantic relations between classes.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/GRO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/GRO/version/0.5">GRO_0-5_OWL-DL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/GRO" href="http://informatics.mayo.edu/cts2/rest/codesystem/GRO">GRO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/DDANAT"
+        resourceName="DDANAT"
+        about="http://purl.bioontology.org/ontology/DDANAT"
+        formalName="Dictyostelium discoideum anatomy" codeSystemName="DDANAT">
+        <core:resourceSynopsis>
+            <core:value>A structured controlled vocabulary of the anatomy of the slime-mould &lt;i&gt;Dictyostelium discoideum&lt;/i&gt;.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/DDANAT/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/DDANAT/version/45398">DDANAT_45398_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/DDANAT" href="http://informatics.mayo.edu/cts2/rest/codesystem/DDANAT">DDANAT</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/EpilepOnto"
+        resourceName="EpilepOnto"
+        about="http://purl.bioontology.org/ontology/EpilepOnto"
+        formalName="Epilepsy" codeSystemName="EpilepOnto">
+        <core:resourceSynopsis>
+            <core:value>Ontology about the epilepsy domain and epileptic seizures. Based on the diagnosis proposed by the International League Against Epilepsy (ILAE).</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/EpilepOnto/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/EpilepOnto/version/45987">EpilepOnto_45987_OWL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/EpilepOnto" href="http://informatics.mayo.edu/cts2/rest/codesystem/EpilepOnto">EpilepOnto</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/EDAM"
+        resourceName="EDAM"
+        about="http://purl.bioontology.org/ontology/EDAM"
+        formalName="Bioinformatics operations, types of data, data formats and topics" codeSystemName="EDAM">
+        <core:resourceSynopsis>
+            <core:value>EDAM (EMBRACE Data And Methods) is an ontology of bioinformatics&#xd;operations (tool, application, or workflow functions), types of data,&#xd;topics (application domains), and data formats. The applications of&#xd;EDAM are within organising tools and data, finding suitable tools in&#xd;catalogues, and integrating them into complex applications or&#xd;workflows. Semantic annotations with EDAM are applicable to diverse&#xd;entities such as for example Web services, databases, programmatic&#xd;libraries, standalone tools and toolkits, interactive applications,&#xd;data schemas, data sets, or publications within bioinformatics.&#xd;Annotation with EDAM may also contribute to data provenance, and EDAM&#xd;terms and synonyms can be used in text mining. EDAM - and in&#xd;particular the EDAM Data sub-ontology - serves also as a markup&#xd;vocabulary for bioinformatics data on the Semantic Web.</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/EDAM/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/EDAM/version/1.1">EDAM_1-1_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/EDAM" href="http://informatics.mayo.edu/cts2/rest/codesystem/EDAM">EDAM</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/TAO"
+        resourceName="TAO"
+        about="http://purl.bioontology.org/ontology/TAO"
+        formalName="Teleost Anatomy Ontology" codeSystemName="TAO">
+        <core:resourceSynopsis>
+            <core:value>Multispecies fish anatomy ontology. Originally seeded from ZFA, but intended to cover terms relevant to other taxa</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/TAO/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/TAO/version/46831">TAO_46831_OBO</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/TAO" href="http://informatics.mayo.edu/cts2/rest/codesystem/TAO">TAO</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM_HARVARD"
+        resourceName="HOM_HARVARD"
+        about="http://purl.bioontology.org/ontology/HOM_HARVARD"
+        formalName="HOM-HARVARD" codeSystemName="HOM_HARVARD">
+        <core:resourceSynopsis>
+            <core:value>HOM-HARVARD demographics for i2b2</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/HOM_HARVARD/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM_HARVARD/version/1.0">HOM_HARVARD_1-0_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/HOM_HARVARD" href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM_HARVARD">HOM_HARVARD</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/PO_PSDS"
+        resourceName="PO_PSDS"
+        about="http://purl.bioontology.org/ontology/PO_PSDS"
+        formalName="Plant Structure Development Stage" codeSystemName="PO_PSDS">
+        <core:resourceSynopsis>
+            <core:value>A controlled vocabulary of growth and developmental stages in various plants. Note that this has been subsumed into the PO.&#xd;This file is created by filtering plant_ontology_assert_basic.obo to contain only terms from the plant anatomical entity branch. For more information, please see: http://palea.cgrb.oregonstate.edu/viewsvn/Poc/tags/live/</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/PO_PSDS/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/PO_PSDS/version/Version #15, May 2011">PO_Version #15, May 2011_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/PO_PSDS" href="http://informatics.mayo.edu/cts2/rest/codesystem/PO_PSDS">PO_PSDS</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/FBcv"
+        resourceName="FBcv"
+        about="http://purl.bioontology.org/ontology/FBcv"
+        formalName="FlyBase Controlled Vocabulary" codeSystemName="FBcv">
+        <core:resourceSynopsis>
+            <core:value>A structured controlled vocabulary used for various aspects of annotation by FlyBase.&lt;br&gt;This ontology is maintained by FlyBase for various aspects of annotation not covered, or not yet covered, by other OBO ontologies.  If and when community ontologies are available for the domains here covered FlyBase will use them.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/FBcv/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/FBcv/version/47154">FBcv_47154_OBO</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/FBcv" href="http://informatics.mayo.edu/cts2/rest/codesystem/FBcv">FBcv</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCHILDTEST"
+        resourceName="HOM-OCHILDTEST"
+        about="http://purl.bioontology.org/ontology/HOM-OCHILDTEST"
+        formalName="HOM-ORTHOCHILDTEST" codeSystemName="HOM-OCHILDTEST">
+        <core:resourceSynopsis>
+            <core:value>Parent ontology testing</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCHILDTEST/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCHILDTEST/version/47826">HOM-OCHILDTEST_47826_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/HOM-OCHILDTEST" href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-OCHILDTEST">HOM-OCHILDTEST</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-DATASRCTESTn"
+        resourceName="HOM-DATASRCTESTn"
+        about="http://purl.bioontology.org/ontology/HOM-DATASRCTESTn"
+        formalName="HOM-DATASRC_TEST_new" codeSystemName="HOM-DATASRCTESTn">
+        <core:resourceSynopsis>
+            <core:value>testing automatic ontology generation and uploads</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/HOM-DATASRCTESTn/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-DATASRCTESTn/version/0.5">HOM-DATASRCTESTn_0-5_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/HOM-DATASRCTESTn" href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-DATASRCTESTn">HOM-DATASRCTESTn</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/DermLex"
+        resourceName="DermLex"
+        about="http://purl.bioontology.org/ontology/DermLex"
+        formalName="DermLex: The Dermatology Lexicon" codeSystemName="DermLex">
+        <core:resourceSynopsis>
+            <core:value>Version 1.0 of the American Academy of Dermatology's DermLex: The Dermatology Lexicon, a standardized terminology of dermatologic diagnoses, therapies, procedures, and laboratory tests.</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/DermLex/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/DermLex/version/1.0">DermLex_1-0_OWL</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/DermLex" href="http://informatics.mayo.edu/cts2/rest/codesystem/DermLex">DermLex</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/EMAP"
+        resourceName="EMAP"
+        about="http://purl.bioontology.org/ontology/EMAP"
+        formalName="Mouse gross anatomy and development" codeSystemName="EMAP">
+        <core:resourceSynopsis>
+            <core:value>A structured controlled vocabulary of stage-specific anatomical structures of the mouse (Mus).</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/EMAP/versions</versions>
+
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/EMAP/version/45267">EMAP_45267_OBO</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/EMAP" href="http://informatics.mayo.edu/cts2/rest/codesystem/EMAP">EMAP</core:codeSystem>
+        </currentVersion>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-MDCDRG"
+        resourceName="HOM-MDCDRG"
+        about="http://purl.bioontology.org/ontology/HOM-MDCDRG"
+        formalName="HOM-MDCDRG" codeSystemName="HOM-MDCDRG">
+        <core:resourceSynopsis>
+            <core:value>HOM MDC-DRG ontology</core:value>
+
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/HOM-MDCDRG/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-MDCDRG/version/1.1">HOM-MDCDRG_1-1_OWL</core:version>
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/HOM-MDCDRG" href="http://informatics.mayo.edu/cts2/rest/codesystem/HOM-MDCDRG">HOM-MDCDRG</core:codeSystem>
+        </currentVersion>
+    </entry>
+
+    <entry href="http://informatics.mayo.edu/cts2/rest/codesystem/RS"
+        resourceName="RS"
+        about="http://purl.bioontology.org/ontology/RS"
+        formalName="Rat Strain Ontology" codeSystemName="RS">
+        <core:resourceSynopsis>
+            <core:value>This ontology defines the hierarchical display of the different rat strains as derived from the parental strains</core:value>
+        </core:resourceSynopsis>
+        <versions>http://informatics.mayo.edu/cts2/rest/codesystem/RS/versions</versions>
+        <currentVersion>
+            <core:version href="http://informatics.mayo.edu/cts2/rest/codesystem/RS/version/4.1">RS_4-1_OBO</core:version>
+
+            <core:codeSystem
+                uri="http://purl.bioontology.org/ontology/RS" href="http://informatics.mayo.edu/cts2/rest/codesystem/RS">RS</core:codeSystem>
+        </currentVersion>
+    </entry>
+</CodeSystemCatalogEntryDirectory>
