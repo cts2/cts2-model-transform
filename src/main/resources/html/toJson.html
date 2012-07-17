@@ -17,6 +17,7 @@
 				  data: data,
 				  success: function(return_data){
 					  $('#result').append(JSON.stringify(return_data, null, " "));
+					  SyntaxHighlighter.defaults.toolbar = false;
 					  SyntaxHighlighter.all()
 					  SyntaxHighlighter.highlight();
 				  }
@@ -27,8 +28,9 @@
 <body>
 		<p>Insert CTS2 XML</p>
 		<textarea id="xml" name="xml" rows="50" cols="150"></textarea>
+		<br/>
 		<button onclick="doSubmit();">Submit</button>
 		
-		<pre class="brush: js; gutter: false;" id="result"></pre>
+		<pre class="brush: js; gutter: false; toolbar: false;" id="result"></pre>
 </body>
 </html>

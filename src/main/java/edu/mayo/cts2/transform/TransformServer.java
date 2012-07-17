@@ -100,8 +100,6 @@ public class TransformServer {
 						}
 					} else {
 						String json = request.body();
-						
-						System.out.println(json);
 
 						Object object = jsonConverter.fromJson(json);
 
