@@ -8,6 +8,14 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>appassembler-maven-plugin</artifactId>
 				<version>1.2.2</version>
@@ -66,9 +74,9 @@
 		</repository>
 
 		<repository>
-			<id>edu.informatics.maven.releases</id>
+			<id>edu.informatics.maven.snapshots</id>
 			<name>Informatics Maven Snapshot Repository</name>
-			<url>http://informatics.mayo.edu/maven/content/repositories/shapshots</url>
+			<url>http://informatics.mayo.edu/maven/content/repositories/snapshots</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
