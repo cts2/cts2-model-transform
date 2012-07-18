@@ -68,7 +68,7 @@ public class TransformServerTest {
 		System.out.println("Runs: " + runs + ", Average Time: " + totalTime
 				/ runs);
 
-		assertTrue("Actual Time: " + totalTime/runs, totalTime/runs < 100);
+		assertTrue("Actual Time: " + totalTime/runs, totalTime/runs < 200);
 	}
 
 	@Test
