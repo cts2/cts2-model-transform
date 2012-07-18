@@ -65,5 +65,16 @@
 			</snapshots>
 		</repository>
 
+		<repository>
+			<id>edu.informatics.maven.releases</id>
+			<name>Informatics Maven Snapshot Repository</name>
+			<url>http://informatics.mayo.edu/maven/content/repositories/shapshots</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 	</repositories>
 </project>
