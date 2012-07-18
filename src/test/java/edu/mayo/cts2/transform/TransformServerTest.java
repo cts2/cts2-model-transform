@@ -23,7 +23,7 @@ public class TransformServerTest {
 
 	@Test
 	public void TestTime() throws Exception {
-		final Cts2Marshaller marshaller = new DelegatingMarshaller();
+		final Cts2Marshaller marshaller = new DelegatingMarshaller(false);
 
 		TransformServer server = new TransformServer(7777);
 		server.start();

@@ -40,7 +40,7 @@ public class TransformServer {
 	public TransformServer(int port) {
 		super();
 		try {
-			this.cts2Marshaller = new DelegatingMarshaller();
+			this.cts2Marshaller = new DelegatingMarshaller(false);
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
