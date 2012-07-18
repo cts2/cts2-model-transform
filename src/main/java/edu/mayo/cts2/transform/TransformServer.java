@@ -101,13 +101,18 @@ public class TransformServer {
 					} else {
 						String json = request.body();
 
+						long start = System.currentTimeMillis();
 						Object object = jsonConverter.fromJson(json);
-
+						System.out.println("From JSON: " + ( System.currentTimeMillis() - start) );
+						
 						StringWriter sw = new StringWriter();
 
 						try {
+							start = System.currentTimeMillis();
 							cts2Marshaller
 									.marshal(object, new StreamResult(sw));
+							
+							System.out.println("Marshall: " + ( System.currentTimeMillis() - start) );
 						} catch (Exception e) {
 							throw new RuntimeException(e);
 						}
@@ -147,14 +152,20 @@ public class TransformServer {
 
 						Object object;
 						try {
+							long start = System.currentTimeMillis();
 							object = cts2Marshaller.unmarshal(new StreamSource(
 									new StringReader(body)));
+							System.out.println("UnMarshall: " + ( System.currentTimeMillis() - start) );
 						} catch (Exception e) {
 							throw new RuntimeException(e);
 						}
 
+						long start = System.currentTimeMillis();
+						String json = jsonConverter.toJson(object);
+						System.out.println("To JSON: " + ( System.currentTimeMillis() - start) );
+						
 						response.header("Content-type", "application/json")
-								.content(jsonConverter.toJson(object)).end();
+								.content(json).end();
 					}
 				}
 			});
