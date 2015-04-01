@@ -1,34 +1,18 @@
 package edu.mayo.cts2.transform;
 
-import java.io.IOException;
-import java.io.StringReader;
-import java.io.StringWriter;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
-import javax.xml.transform.stream.StreamResult;
-import javax.xml.transform.stream.StreamSource;
-
 import org.apache.commons.io.IOUtils;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
-import org.webbitserver.HttpControl;
-import org.webbitserver.HttpHandler;
-import org.webbitserver.HttpRequest;
-import org.webbitserver.HttpResponse;
-import org.webbitserver.WebServer;
+import org.webbitserver.*;
 import org.webbitserver.netty.NettyWebServer;
 
-import edu.mayo.cts2.framework.core.json.JsonConverter;
-import edu.mayo.cts2.framework.core.xml.Cts2Marshaller;
-import edu.mayo.cts2.framework.core.xml.DelegatingMarshaller;
+import java.io.IOException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class TransformServer {
 
 	private static final int DEFAULT_PORT = 9999;
-
-	private Cts2Marshaller cts2Marshaller;
-	private JsonConverter jsonConverter;
 
 	private WebServer webServer;
 
@@ -37,15 +21,10 @@ public class TransformServer {
 
 	private ExecutorService workerPool = Executors.newCachedThreadPool();
 
-	public TransformServer(int port) {
-		super();
-		try {
-			this.cts2Marshaller = new DelegatingMarshaller(false);
-		} catch (Exception e) {
-			throw new RuntimeException(e);
-		}
-		this.jsonConverter = new JsonConverter();
+    private Cts2Transformer transformer = Cts2Transformer.instance;
 
+	public TransformServer(int port) {
+        super();
 		NettyWebServer nettyWebServer = new NettyWebServer(port)
 				.maxContentLength(Integer.MAX_VALUE)
 				.add("/tojson", new ToJsonHandler())
@@ -101,24 +80,10 @@ public class TransformServer {
 					} else {
 						String json = request.body();
 
-						long start = System.currentTimeMillis();
-						Object object = jsonConverter.fromJson(json);
-						System.out.println("From JSON: " + ( System.currentTimeMillis() - start) );
-						
-						StringWriter sw = new StringWriter();
-
-						try {
-							start = System.currentTimeMillis();
-							cts2Marshaller
-									.marshal(object, new StreamResult(sw));
-							
-							System.out.println("Marshall: " + ( System.currentTimeMillis() - start) );
-						} catch (Exception e) {
-							throw new RuntimeException(e);
-						}
+						String xml = transformer.toXml(json);
 
 						response.header("Content-type", "application/xml")
-								.content(sw.toString()).end();
+								.content(xml).end();
 					}
 				}
 
@@ -147,22 +112,9 @@ public class TransformServer {
 							throw new RuntimeException(e);
 						}
 					} else {
-
 						String body = request.body();
 
-						Object object;
-						try {
-							long start = System.currentTimeMillis();
-							object = cts2Marshaller.unmarshal(new StreamSource(
-									new StringReader(body)));
-							System.out.println("UnMarshall: " + ( System.currentTimeMillis() - start) );
-						} catch (Exception e) {
-							throw new RuntimeException(e);
-						}
-
-						long start = System.currentTimeMillis();
-						String json = jsonConverter.toJson(object);
-						System.out.println("To JSON: " + ( System.currentTimeMillis() - start) );
+						String json = transformer.toJson(body);
 						
 						response.header("Content-type", "application/json")
 								.content(json).end();
